@@ -1,0 +1,58 @@
+\documentclass[a4paper, 12pt, notitlepage]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+
+
+\usepackage[left=3cm, right=3cm, top=1.5cm, bottom=2cm, nohead]{geometry}
+
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{physics}
+
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{graphicx}
+
+\usepackage{array, multirow, longtable}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    pdftitle={Лекции по истории и философии науки}
+}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]
+  {\normalfont\LARGE\bfseries\raggedright}
+  {Лекция \thechapter}
+  {1em}{}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\addto\captionsrussian{\renewcommand{\chaptername}{Лекция}}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{9cm}
+    {\Huge \textbf{Лекции по истории и философии науки}}
+    \includegraphics[width=\textwidth,trim=4 4 4 4,clip]{pictures/title.png}
+    \vfill
+\end{titlepage}
+
+\tableofcontents
+
+\chapter{История и философия науки как научная и учебная дисциплина}
+\input{lectures/lect1}
+
+\chapter{Многообразие научного знания и его структура}
+\input{lectures/lect2}
+
+\chapter{Социально-коммуникативные аспекты науки}
+\input{lectures/lect3}
+
+\chapter{Наука как феномен культуры}
+\input{lectures/lect4}
+
+\end{document}
