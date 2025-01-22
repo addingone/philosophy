@@ -1,4 +1,0 @@
-#!/bin/zsh
-latexmk -pdf  -jobname=lectures "main.tex" &> out.log
-ls lectures.* | grep -v "lectures.pdf" | xargs rm
-mv lectures.pdf ../
