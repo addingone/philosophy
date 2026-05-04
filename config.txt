@@ -1,1 +1,2 @@
 vless://d684af0d-f99d-447b-950c-265f98d9ab18@66.151.42.167:443?encryption=none&security=reality&sni=www.microsoft.com&fp=chrome&pbk=4DEEOx0gabIweZaNwB88vxlBZRwbHfB8W4zEA4KbNBA&sid=55667788&flow=xtls-rprx-vision&type=raw#VLESS_new
+tg://proxy?server=66.151.42.167&port=50000&secret=eec28a01396f178bea733c3a2c0be2a4ad616464696e6776706e2e64646e732e6e6574
